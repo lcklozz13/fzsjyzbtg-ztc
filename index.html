@@ -1,0 +1,321 @@
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1366, user-scalable=yes">
+    <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>公告导航</title>
+    <link href="https://htpscdn.enjoy5191.com/static/css/views/ebid/combine/v1/entp-view.d28d328b4233279a9296e133a50b6b9a.css" rel="stylesheet">
+    <style type="text/css">
+    @charset "UTF-8";
+
+    .app[data-v-13d2e562] {
+        width: 100%;
+        height: 100%;
+        /*border:1px solid black;*/
+        margin: 0 auto;
+    }
+
+    .enptp-fater[data-v-13d2e562] {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        z-index: 1;
+        right: 0;
+        width: 100%;
+        height: 100px;
+        background: white;
+    }
+
+    .enptp-fater-title[data-v-13d2e562] {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        height: 60px;
+        text-align: center;
+        line-height: 60px;
+        background: #20a0ff;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .entp-title[data-v-13d2e562] {
+        min-width: 1024px;
+        height: 100px;
+        margin: 0 auto;
+        font-family: "Microsoft Yahei";
+        background: white;
+        width: 1180px;
+    }
+
+    .entp-title-left[data-v-13d2e562] {
+        height: 100%;
+        margin-right: 16px;
+    }
+
+    .entp-title-left span[data-v-13d2e562] {
+        margin-top: 20px;
+        display: block;
+    }
+
+    .entp-title-left .spanspecial[data-v-13d2e562] {
+        text-align: center;
+        width: 160px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 24px;
+        border-radius: 5px;
+        background: #a9d96c;
+        color: #ffffff;
+        font-weight: bolder;
+    }
+
+    .entp-title-center[data-v-13d2e562] {
+        padding-top: 20px;
+        font-weight: bolder;
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+    }
+
+    .entp-title-center .spanspecial1[data-v-13d2e562] {
+        margin-left: 19px;
+        display: block;
+        height: 24px;
+        line-height: 24px;
+        color: #727171;
+    }
+
+    .title-center-titletimes[data-v-13d2e562] {
+        height: 28px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+
+    .title-center-titletimes span[data-v-13d2e562] {
+        padding: 2px 3px;
+        margin-right: -2px;
+        background: #a9d96c;
+        border-radius: 3px;
+        color: #ffffff;
+    }
+
+    .title-center-titletimes span.kbdjs[data-v-13d2e562] {
+        font-size: 16px;
+        background: none;
+        color: #727171;
+    }
+
+    .title-center-titletimes span.dw[data-v-13d2e562] {
+        background: #ffffff;
+        color: #727171;
+    }
+
+    .entp-title-right[data-v-13d2e562] {
+        height: 100px;
+        padding-top: 15px;
+        font-size: 14px;
+        color: #727171;
+        font-weight: bold;
+    }
+
+    .entp-sale-time[data-v-13d2e562] {
+        margin-right: 10px;
+        border-left: 1px solid #eee;
+        padding: 10px 15px;
+        padding-right: 0;
+    }
+
+    .timeColor[data-v-13d2e562] {
+        color: #2ca2fe;
+        margin: 0 6px;
+    }
+
+    .entp-question-time[data-v-13d2e562] {
+        border-left: 1px solid #eee;
+        padding: 10px 15px;
+        padding-right: 0;
+    }
+
+    .entp-question-time span[data-v-13d2e562] {
+        /*margin-right: 20px;*/
+    }
+
+    .entp-content[data-v-13d2e562] {
+        height: 100%;
+        margin: 170px auto 0;
+        width: 1180px;
+        min-width: 1024px;
+    }
+
+    .fl[data-v-13d2e562] {
+        float: left;
+    }
+
+    .fr[data-v-13d2e562] {
+        float: right;
+    }
+
+    .entp-content-linetime[data-v-13d2e562] {
+        width: 164px;
+        background: #20a0ff;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAiElEQVQoz+3RMQrCQBSE4V1Q8UQ2KbTJLVKl0S5VTpF7mOOZQjvJZ5EVwprY2jiwsMz8+x7LBGxxRRlWhDIxu4DepAdOC/AxZdAHVHgm445iBhfJk5jqHdQYUzDgkM6QvBF1vvqcPbrN4Mva5xqfasI3oZ3BbZ5vciPG2GE/XWO3NPHfw+97eAHvu4dQgSYx7wAAAABJRU5ErkJggg==);
+        background-repeat: no-repeat;
+        background-position: 21px 14px;
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: "Microsoft YaHei";
+        color: #ffffff;
+        overflow: auto;
+    }
+
+    .entp-content-linetime .box[data-v-13d2e562] {
+        width: 28px;
+        border-right: 2px dashed #ffffff;
+        position: relative;
+        padding-top: 50px;
+        margin-top: 0;
+        height: auto;
+    }
+
+    .entp-content-linetime .box .spanbox[data-v-13d2e562] {
+        width: 152px;
+        height: 20px;
+        margin-left: 12px;
+        position: relative;
+    }
+
+    .entp-content-linetime .box .spanbox .spanleft[data-v-13d2e562] {
+        position: absolute;
+        top: 22px;
+        left: 44px;
+        font-size: 12px;
+    }
+
+    .entp-content-linetime .box .spanbox .spanword[data-v-13d2e562] {
+        display: inline-block;
+        line-height: 32px;
+        font-size: 16px;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAAA3CAYAAAABg9iXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAEqElEQVR42u3d328UVRTA8e/cmd1226Vb+mO60FYK1lKwkBQQqhIeanjQxISYGBOJD8XoA74YTVQe4MmYOPFfEEJCQkyM0YRE+SGJEX+gYu0DoCGWODRptS1s60K7bXfGh21rqWV/tBvv7vZ8HndPZ89NTu6dPXPv1iBPbMctB54A9gJbgTagAagEIvn6HFE8jJX8se24IeA54EWgGyjXPSBROJZVXLbjVgOvA68BdboHIQpTTsVlO64CXgHeA2p0Jy8KW9bFZTvuI8ApYLfupEVxUNkE2Y77PPATUlgiBxmLy3bct4GPgCrdyYriknZZtB33A+BN3UmK4vTAmct23HeQwhIrsOTMZTvuC8BpVtgHE6vbf4rHdtx24ApQoTs5UdzuWxZn+1gnkcISebD4nutVpN0g8mR+WbQdNwL0I513kScLZ67DSGGJPDJgfruMC9TrTkiUjrmZ61mksESezRXXS7oTEaXHmF0S7yAb/USeWaS2JmdVWHuayjjUGWZPUxl1IcXIhMflgQTHe+NcHkjoHosoMBawL2OQgne719LTGb7v9XVhkwPtFRxor+BEb5yjF2NMe77uMYkCYQHbMgU5+2s4uL0ybUxPZ5igafDG2du6xyQKhML3W9MF7G4sy1hYcw5ur2R3Y5nuMYkCocBfny7g0KKlMJOXd+QWL0qXAiPtmcK9D+U2E3U1ycwlUhSGEUgXUF9p5nTB2lBW2/LFKqDwvZl0AcN3kzldcHTC0z0mUSCU7yXj6QK+uZVb/+p76XeJWYqpe7F0Acd741leannxonQpb2J8KF3AXAc+G9KpFwspb2zwj0xBxy7GOJGhwE70xjl2MaZ7PKKAmFZDa1ugZddT6YI8Hy70T/K1myAUMKguV5SZBsP3PC70T/LW+Tuc/CWOPPkRCxkqsu7puiPffoYyAyu/nBD/Ut7Y4J3k+FCf7kRE6VHA2PSNS1/pTkSUHgWMxD9//0c/OT2uOxlRWhRw24uPTM64vWd1JyNKiwKSwPDfnx494yenpQMq8mbuqbTvxUfqA03bJiy7dafupERpmNvCMAhMjZ86fM67e/uG7qREaZifuQAT36vz4sPXy7bu78ZQlu7kRHFbuFlrDNg4M3j9nlnT/Ke1/tEu5Pe5xAosLC4PmAGiiavn3MCmLt+sae7QnaAoXou3mcaAKBCavPLxtWB7d8iMRDfrTlIUp6X2MI8CLYCa/OF0X6Bl17RZu2EbskSKHC1VXFPAXaARYPLnT35VkehAILqlE6Xk4bbI2oNOX4yT+gZZDzB17cKt5OjN7wKbutqMYEh+w0tkJd3RnhFSJ7JrAWaGfotPXPrwSyvaFrNqN25GqaDu5EVhy3Ru7C9Sj4dsAHyPRN+Z3xNXvzhvRdtnVJXdbChTDiqKJWV7k94I7ADuu+dSVQ3B8DNHuoIPP75PrbE7ZMOhWCiXb4Bh4DFg7VJvqqqGYMWTPZsDG3ZuUZGGJiNUvd4IlEcMZYUwrZDugYr/X67tBYNUm6KDRbOYEIvldlY/JQbcJNXRjyzzGmIVWGlj1CR1P9ZM6t8RS6GJefnsupuk2ha1wBpS92jls6/LEroK/QOLKBccJWC8vAAAAABJRU5ErkJggg==);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 152px;
+        padding-left: 40px;
+        height: 56px;
+        text-align: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+
+    .entp-content-linetime .box .spanbox .cur_spanword[data-v-13d2e562] {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAAA3CAYAAAABg9iXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAEdklEQVR42u3dX0hkdRTA8e/9XWdW3S3T9c86TjBB65/QB/+koiGjQbEP+hDEugs91kMpBMFuL1FQVELPPvS2uKAR+2D2EvrSU4nZ4lOJS5mNsGOU7rKWijOnh1FXTa9znaE7M54PDA7XM3fODw6/351z79yxSBMRyQc6gBeA54BqoAI4DxSl631U9rBSebGIFACvANeBHiDf6wGpzHGq4hKRp4C3gbeAUq8HoTKTq+ISEQO8DnwMlHidvMpsSReXiFwGbgOtXietsoNJJkhEXgV+QAtLuXBicYnITeAL4Emvk1XZxXFZFJHPgHe8TlJlp2NnLhF5Fy0slYIjZy4RuQqMkmIfTJ1t/ykeEakFZoFCr5NT2e3AsrjTx7qFFpZKg8PHXG+g7QaVJnvLoogUAb+gnXeVJvtnrjfRwlJpZMHe5TJLQJnXCancsTtz9aKFpdJst7he8zoRlXusnSVxFb3QT6VZHolLk5MqrB9XhLF5YXZFWN2A4nxoLrfor7FoKtdmvjrIEpEPgPedgmICn87EGZuXY2P6ayxuthjykrqIR50FBmg4KejD750LC2BsXvhoOu71eFQGMSLyrFPA3RXhzj1Jamd37gl3V5KLVbnPiEjAKeCkGeuwUZfxKncZy7Icv1M4fd9dscxGtbhUgrEsy+cU8OeGux2ubno9JJUpTDwe33YKuOiy+1V8zushqUxhtre3HzkFtF5y179qrtB+l0ow6+vra04B/TXuisVtvMpdZm1t7b5TQFO5xbUkC+aadurVPiYSifx2UtCNFnPijNRfY3GjRdvz6jG7rq6uurOz80WnIGNBV5VFe6XFZgwebsJWHErzoSto8V6b4Wq1weikpfaxgsHglcXFxXHbtn2p706px0wkElldXl6e8zoRlXsM8GBqaupbrxNRuccCyioqKnqWlpY+9/v9erMRlTYG+CsajW5MT09/43UyKrcYIAb8MTAw8PXW1tajVHeo1C57569Eo9Gy5ubmf2pra5u9Tkrlht3OlA1c8fv955aXlz8pLS297HViKvvtzVyAHYvFSqPR6E99fX09xpg8r5NT2c3e9/wB8Mzc3NzfoVAo2tjY2I7en0ulYH9xxYFt4NL4+PhSOByWUChU73WCKnsdPtP8K4kvyNLd3f3lzMzMV14nqLLX4eISErcEjwG0trbempycvL2zXSlX7CO2bQHrQBXAyMjIz8FgMNLQ0NCoJ7eVG/Yx2x+SmK3KACYmJn5fWFj4LhwOVxcWFuo9vFRSTvo02ADs9bz8fr81Ojr6Um9v73Wfz3fB6+RVZkum1VANHPjUWF9ff354eLi3ra3tZT3ZrY6TbB+rCmgCDhxzBQIB/9DQUHs4HO6qrKys12MytZ+bJukF4Hmg+Kh/BgIB/+DgYE1HR0ddIBAIlpSUBAoKCory8vIKfD5fgdcDVf8/tx14CwiRWCZ1llKO7FO8Zo1EszVO4rerT7MPdQakeu7QJnE89jSJnyPWQlN70nli2gYu7jyeIHGMlr+zXZfQM+hfdKcWAP+Ob38AAAAASUVORK5CYII=);
+        color: #168ae2;
+    }
+
+    /*.entp-content-linetime .box .spanbox:first-child .circle{*/
+    /*margin-left: 63px;*/
+    /*}*/
+    /*.entp-content-linetime .box .spanbox:first-child div:first-child{*/
+    /*margin-left: -9px;*/
+    /*}*/
+    .entp-content-linetime .box .spanbox .circle[data-v-13d2e562] {
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 12px;
+        background: #f5a204;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        font-size: 13px;
+        margin-left: 70px;
+    }
+
+    .entp-content-linetime .box .spanbox .cur_circle[data-v-13d2e562] {
+        background: #a9d96c;
+    }
+
+    .entp-content-linetime .box .spanbox.spanspeical[data-v-13d2e562] {
+        margin-top: 20px;
+        margin-bottom: 95px;
+    }
+
+    .entp-content-word[data-v-13d2e562] {
+        /*width:743px;*/
+        background: #ffffff;
+    }
+
+    #iframe_main[data-v-13d2e562] {
+        /*height: 100%;
+        overflow:scroll;*/
+        /*margin-left: 290px;*/
+    }
+
+    .myFrame[data-v-13d2e562] {
+        /*min-width: 850px;*/
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    </style>
+    <style type="text/css">
+    .xcx-code[data-v-d39d4d1e] {
+        position: fixed;
+        right: 0;
+        top: 50%;
+    }
+
+    .xcx-code .close[data-v-d39d4d1e] {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        top: 50%;
+        right: 0;
+    }
+    </style>
+</head>
+
+<body>
+    <div data-v-13d2e562="" class="app">
+        <!---->
+        <div data-v-13d2e562="" class="enptp-fater-title">中亭村乡村振兴村庄建设规划服务性编制项目中标结果公示</div>
+        <div data-v-13d2e562="" class="enptp-fater">
+            <div data-v-13d2e562="" class="entp-title">
+                <div data-v-13d2e562="" class="entp-title-left fl"><span data-v-13d2e562="" class="spanspecial">公示中</span></div>
+                <div data-v-13d2e562="" class="entp-title-center fl"><span data-v-13d2e562="" class="spanspecial1">开标时间：<span data-v-13d2e562="" class="timeColor">2022-09-05 09:30:00</span></span>
+                    <div data-v-13d2e562="" class="title-center-titletimes"><span data-v-13d2e562="" class="kbdjs">开标倒计时：</span> <span data-v-13d2e562="" class="time day">0</span> <span data-v-13d2e562="" class="time day">0</span> <span data-v-13d2e562="" class="dw">天</span> <span data-v-13d2e562="" class="time hour">0</span> <span data-v-13d2e562="" class="time hour">0</span> <span data-v-13d2e562="" class="dw">时</span> <span data-v-13d2e562="" class="time minute">0</span> <span data-v-13d2e562="" class="time minute">0</span> <span data-v-13d2e562="" class="dw">分</span> <span data-v-13d2e562="" class="time second">0</span> <span data-v-13d2e562="" class="time second">0</span> <span data-v-13d2e562="" class="dw">秒</span></div>
+                </div>
+                <div data-v-13d2e562="" class="entp-title-right fr">
+                    <div data-v-13d2e562="" class="entp-sale-time fl"><span data-v-13d2e562="">标书售卖截止时间：</span> <span data-v-13d2e562="" class="timeColor">2022-08-26 17:00:00</span><br data-v-13d2e562=""><br data-v-13d2e562=""> <span data-v-13d2e562="">保证金缴纳截止时间：</span> <span data-v-13d2e562="" class="timeColor">2022-09-05 09:30:00</span></div>
+                    <div data-v-13d2e562="" class="entp-question-time  fl"><span data-v-13d2e562="">答疑截止时间：</span> <span data-v-13d2e562="" class="timeColor">2022-08-29 17:00:00</span><br data-v-13d2e562=""><br data-v-13d2e562=""> <span data-v-13d2e562="">质疑截止时间：</span> <span data-v-13d2e562="" class="timeColor">2022-08-28 17:00:00</span></div>
+                </div>
+            </div>
+        </div>
+        <div data-v-13d2e562="" class="entp-content">
+            <div data-v-13d2e562="" class="entp-content-linetime fl" style="height: 100%;">
+                <div data-v-13d2e562="" class="box">
+                    <div data-v-13d2e562="" class="spanbox spanspeical">
+                        <div data-v-13d2e562="" class="spanword spanword"><span data-v-13d2e562="">中标公示</span>
+                            <!---->
+                            <div data-v-13d2e562="" class="spanleft">2022-09-13</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-v-13d2e562="" id="iframe_main">
+                <div data-v-13d2e562="" style="overflow: hidden; height: 100%;"><iframe data-v-13d2e562="" src="zbjggs.html" scrolling="auto" frameborder="0" class="myFrame"></iframe></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

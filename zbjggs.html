@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>招标公告</title>
+    <link href="https://htpscdn.enjoy5191.com/static/css/views/ebid/type/tenderProject/water/v3/ty/entp-view.d32879944da8633e980973a7b7083646.css" rel="stylesheet">
+    <style type="text/css">
+    .fill[data-v-9e1929b8] {
+        color: #0000FF;
+    }
+
+    .accessory[data-v-9e1929b8] {
+        page-break-after: always;
+    }
+
+    .accessory[data-v-9e1929b8]:last-child {
+        page-break-after: avoid;
+    }
+
+    .romoteEval[data-v-9e1929b8] {
+        width: 500px;
+        vertical-align: baseline !important;
+    }
+
+    .sx-common-dialog .el-dialog[data-v-9e1929b8] {
+        width: 420px;
+    }
+
+    .sx-common-dialog .sx-main-1[data-v-9e1929b8] {
+        height: auto !important;
+        min-height: 80px;
+    }
+
+    .headBtn[data-v-9e1929b8] {
+        position: fixed;
+        width: 100%;
+        min-height: 64px;
+        border-bottom: 1px solid #f1f2f7;
+        background: #fff;
+        padding: 10px;
+        padding-right: 70px;
+        top: 0;
+    }
+
+    .view[data-v-9e1929b8] {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+
+    .mt145[data-v-9e1929b8] {
+        margin-top: 145px;
+    }
+    </style>
+    <style type="text/css">
+    .records-table[data-v-1f0946ff] {
+        width: 100%;
+    }
+
+    .records-table td[data-v-1f0946ff] {
+        max-width: 200px;
+        word-wrap: break-word;
+        word-break: break-all;
+        padding: 10px;
+    }
+
+    .records-table td .a[data-v-1f0946ff] {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .sign-content ul[data-v-1f0946ff] {
+        width: 300px;
+        margin: auto;
+        list-style: none;
+    }
+
+    .sign-content ul li[data-v-1f0946ff] {
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    .sign-content ul li .a[data-v-1f0946ff] {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .sign-footer[data-v-1f0946ff] {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .fixed[data-v-1f0946ff] {
+        position: fixed;
+        float: left;
+        z-index: 1000;
+        padding-left: 188px;
+    }
+
+    .margin[data-v-1f0946ff] {
+        margin: 4px 10px;
+    }
+
+    .history span[data-v-1f0946ff] {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .wordwrap[data-v-1f0946ff] {
+        white-space: inherit !important;
+        word-wrap: break-word;
+    }
+
+    .payDialog .title[data-v-1f0946ff] {
+        font-size: 20px;
+    }
+
+    .payDialog .img[data-v-1f0946ff] {
+        width: 45px;
+        margin: 0 10px -5px 10px;
+    }
+
+    .payDialog .tips[data-v-1f0946ff] {
+        display: block;
+        font-size: 13px;
+        text-decoration: underline;
+        margin: 20px 0;
+    }
+
+    .payDialog .red[data-v-1f0946ff] {
+        color: red;
+    }
+
+    .payDialog .tips[data-v-1f0946ff]:hover {
+        cursor: pointer;
+    }
+
+    .payDialog .btn[data-v-1f0946ff] {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 50px 0 30px;
+    }
+
+    .payDialog .btn span[data-v-1f0946ff] {
+        margin-top: 20px;
+    }
+    </style>
+    <style type="text/css">
+    .payDialog {
+        min-width: 350px;
+    }
+
+    .dlg-iframe .el-dialog__body {
+        padding: 25px 20px 5px;
+    }
+
+    @media screen and (max-height: 1080px) {
+        .dlg-iframe .el-dialog__body iframe {
+            height: 775px;
+        }
+    }
+
+    @media screen and (max-height: 768px) {
+        .dlg-iframe .el-dialog__body iframe {
+            height: 650px;
+        }
+    }
+    </style>
+    <style type="text/css">
+    .fill[data-v-945f4834] {
+        color: #0000FF;
+    }
+
+    .accessory[data-v-945f4834] {
+        page-break-after: always;
+    }
+
+    .accessory[data-v-945f4834]:last-child {
+        page-break-after: avoid;
+    }
+
+    .romoteEval[data-v-945f4834] {
+        width: 500px;
+        vertical-align: baseline !important;
+    }
+
+    .sx-common-dialog .el-dialog[data-v-945f4834] {
+        width: 420px;
+    }
+
+    .sx-common-dialog .sx-main-1[data-v-945f4834] {
+        height: auto !important;
+        min-height: 80px;
+    }
+
+    .wce-open-sign ul[data-v-945f4834] {
+        list-style: none;
+        line-height: 50px;
+        font-size: 16px;
+    }
+
+    .wce-open-sign ul a[data-v-945f4834] {
+        color: #20a0ff;
+        text-decoration: none;
+    }
+
+    .wce-open-sign .newDialog[data-v-945f4834] {
+        width: 500px;
+        text-align: left;
+        line-height: 24px;
+    }
+
+    .wce-open-sign .fjCaA[data-v-945f4834] {
+        position: absolute;
+        left: 15px;
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        color: blue;
+    }
+
+    .wce-open-sign .fjCaDialogClass[data-v-945f4834] {
+        line-height: 24px;
+        text-align: center;
+        font-size: 16px;
+        border-top: 1px solid;
+        margin-top: -15px;
+        width: 710px;
+    }
+
+    .wce-open-sign .fjCaFooter[data-v-945f4834] {
+        text-align: center;
+        border-top: 1px solid;
+    }
+
+    .wce-open-sign .fjCaFooter .fjCaFootertext[data-v-945f4834] {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .sign-modal[data-v-945f4834] {
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        overflow: auto;
+        margin: 0;
+        background: #808080;
+        opacity: 0.8;
+    }
+    </style>
+    <style type="text/css">
+    .wos-dlg ul.text-center {
+        text-align: left;
+    }
+    </style>
+    <style type="text/css">
+    .red[data-v-21d396e2] {
+        margin: 4px 10px;
+        color: red;
+        font-weight: bold;
+    }
+    </style>
+    <style type="text/css">
+    .fill[data-v-06f4c333] {
+        color: #0000FF;
+    }
+
+    .accessory[data-v-06f4c333] {
+        page-break-after: always;
+    }
+
+    .accessory[data-v-06f4c333]:last-child {
+        page-break-after: avoid;
+    }
+
+    .romoteEval[data-v-06f4c333] {
+        width: 500px;
+        vertical-align: baseline !important;
+    }
+
+    .sx-common-dialog .el-dialog[data-v-06f4c333] {
+        width: 420px;
+    }
+
+    .sx-common-dialog .sx-main-1[data-v-06f4c333] {
+        height: auto !important;
+        min-height: 80px;
+    }
+
+    .app[data-v-06f4c333] {
+        padding-top: 60px;
+    }
+
+    .colorRed[data-v-06f4c333] {
+        color: red;
+    }
+    </style>
+    <style type="text/css">
+    .fill {
+        color: #0000FF;
+    }
+
+    .accessory {
+        page-break-after: always;
+    }
+
+    .accessory:last-child {
+        page-break-after: avoid;
+    }
+
+    .romoteEval {
+        width: 500px;
+        vertical-align: baseline !important;
+    }
+
+    .sx-common-dialog .el-dialog {
+        width: 420px;
+    }
+
+    .sx-common-dialog .sx-main-1 {
+        height: auto !important;
+        min-height: 80px;
+    }
+
+    .wce-file-list .a {
+        color: #1e00f2;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .red {
+        color: red;
+    }
+
+    .aClass {
+        color: white;
+        text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div data-v-9e1929b8="">
+        <!---->
+        <div data-v-9e1929b8="" class="view">
+            <div data-v-9e1929b8="" class="headBtn">
+                <header data-v-9e1929b8="">
+                    <div data-v-1f0946ff="" data-v-9e1929b8="" class=""> <span data-v-1f0946ff=""><button data-v-1f0946ff="" type="button" class="el-button margin el-button--primary">
+                                <!---->
+                                <!----><span>
+                                    获取标书
+                                </span></button></span><span data-v-1f0946ff=""><button data-v-1f0946ff="" type="button" class="el-button margin el-button--primary">
+                                <!---->
+                                <!----><span>
+                                    查看日程安排
+                                </span></button></span><span data-v-1f0946ff=""><button data-v-1f0946ff="" type="button" class="el-button margin el-button--primary">
+                                <!---->
+                                <!----><span>
+                                    保证金缴纳查询
+                                </span></button></span> <span data-v-9e1929b8="" data-v-1f0946ff="" style="min-width: 450px; font-size: 18px; font-weight: bold;">请<button data-v-9e1929b8="" type="button" class="el-button el-button--primary el-button--small" data-v-1f0946ff="">
+                                <!---->
+                                <!----><span>登录</span></button><span data-v-9e1929b8="" data-v-1f0946ff="">随行易交易电子招标投标平台选择<span class="red">"工程建设"</span>进行投标</span></span>
+                        <div data-v-1f0946ff="" class="el-dialog__wrapper" style="display: none;">
+                            <div class="el-dialog el-dialog--tiny" style="top: 15%;">
+                                <div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                                <!---->
+                                <div class="el-dialog__footer">
+                                    <div data-v-1f0946ff="" class="dialog-footer"><button data-v-1f0946ff="" type="button" class="el-button el-button--default">
+                                            <!---->
+                                            <!----><span>取 消</span></button> <button data-v-1f0946ff="" type="button" class="el-button el-button--primary">
+                                            <!---->
+                                            <!----><span>确 认</span></button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-v-1f0946ff="" class="el-dialog__wrapper" style="display: none; text-align: left; width: 150%; margin-left: -25%;">
+                            <div class="el-dialog el-dialog--" style="top: 15%;">
+                                <div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                                <!---->
+                                <!---->
+                            </div>
+                        </div>
+                        <div data-v-1f0946ff="" class="el-dialog__wrapper" style="display: none; text-align: left; width: 150%; margin-left: -25%;">
+                            <div class="el-dialog el-dialog--" style="top: 15%;">
+                                <div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                                <!---->
+                                <!---->
+                            </div>
+                        </div>
+                        <div data-v-1f0946ff="" class="el-dialog__wrapper" style="display: none; margin-top: 100px; width: 150%; margin-left: -25%;">
+                            <div class="el-dialog el-dialog--small" style="top: 15%;">
+                                <div class="el-dialog__header"><span class="el-dialog__title">退回意见</span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                                <!---->
+                                <!---->
+                            </div>
+                        </div>
+                        <div data-v-1f0946ff="" class="el-dialog__wrapper" style="display: none;">
+                            <div class="el-dialog el-dialog--large dlg-iframe" style="top: 5vh;">
+                                <div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                                <!---->
+                                <!---->
+                            </div>
+                        </div>
+                        <div data-v-1f0946ff="" class="el-dialog__wrapper" style="display: none;">
+                            <div class="el-dialog el-dialog--tiny payDialog" style="top: 15%;">
+                                <div class="el-dialog__header"><span class="el-dialog__title"></span>
+                                    <!---->
+                                </div>
+                                <!---->
+                                <!---->
+                            </div>
+                        </div>
+                        <div data-v-945f4834="" data-v-1f0946ff="" class="wce-open-sign">
+                            <!---->
+                            <!---->
+                            <div data-v-945f4834="" class="el-dialog__wrapper" style="display: none;">
+                                <div class="el-dialog el-dialog--500px" style="top: 10%;">
+                                    <div class="el-dialog__header"><span class="el-dialog__title">签章</span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div>
+                                    <!---->
+                                    <div class="el-dialog__footer">
+                                        <div data-v-945f4834="" class="fjCaFooter">
+                                            <p data-v-945f4834="" class="fjCaFootertext">说明：签章完成后，请点击“签章完成”按钮，完成本次签章</p> <button data-v-945f4834="" type="button" class="el-button el-button--default">
+                                                <!---->
+                                                <!----><span>取消签章</span></button> <button data-v-945f4834="" type="button" class="el-button el-button--primary">
+                                                <!---->
+                                                <!----><span>签章完成</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <button data-v-9e1929b8="" type="button" class="el-button el-button--primary" style="float: right; position: absolute; top: 14px; right: 10px;">
+                        <!---->
+                        <!----><span>打印</span></button>
+                    <div data-v-21d396e2="" data-v-9e1929b8="">
+                        <p data-v-21d396e2="" class="red">重要提示：该招标项目后续发布的补充、答疑等公告，投标人须关注“随行软件”公众号后通过“易中标”小程序的关注功能进行查看，避免遗漏。</p>
+                    </div>
+                </header>
+            </div>
+            <div data-v-9e1929b8="" style="margin-top: 46px;">
+                <div data-v-06f4c333="" data-v-9e1929b8="" class="app">
+                    <p data-v-06f4c333="" class="text-center order0"><span data-v-06f4c333="" class="fill">中亭村乡村振兴村庄建设规划服务性编制项目中标结果公示</span>
+                        <div data-v-06f4c333="" data-v-6a210342="" class="order1">公告类型：中标结果公示</div>
+                        <div data-v-06f4c333="" data-v-6a210342="" class="order1">中标人：福州城建设计研究院有限公司</div>
+                        <div data-v-06f4c333="" data-v-6a210342="" class="order1">中标价：135000元</div>
+                        <div data-v-06f4c333="" data-v-6a210342="" class="order1">中标人代码：91350100154413019L</div>
+                        <div data-v-06f4c333="" style="border: 1px solid rgb(212, 212, 212);">
+                            <h1 style="margin-top: 0.0000pt; margin-bottom: 0.0000pt; margin-left: 0.0000pt; mso-add-space: auto; text-align: center; line-height: 125%; mso-list: l1 level1 lfo1;" align="center">
+                                <strong><span style="mso-spacerun: 'yes';  mso-ascii- mso-hansi- mso-bidi- font-weight: bold; font-size: 22.0000pt; mso-font-kerning: 22.0000pt;"><span style="color: #0000ff; ">中标结果公示</span></span></strong></h1>
+                            <p class="MsoNormal" style="mso-add-space: auto; line-height: 125%;"><span style="mso-spacerun: 'yes';  mso-ascii- mso-hansi- mso-bidi-">&nbsp;</span></p>
+                            <p class="MsoNormal" style="margin-left: -14.0000pt; mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; mso-list: l0 level1 lfo2;">
+                                <!-- [if !supportLists]--><span style=" mso-hansi- mso-bidi- mso-ansi-font-style: normal; font-size: 12.0000pt;"><span style="mso-list: Ignore;color: #0000ff">招标编号：&nbsp;</span></span>
+                                <!--[endif]--><span style="mso-spacerun: 'yes';  color: #0000ff; letter-spacing: 0.0000pt; text-transform: none; text-decoration: underline; text-underline: single; font-style: normal; font-size: 12.0000pt; background: #ffffff; mso-shading: #ffffff;"><span style="">京汉（招）2022-035号</span></span></p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">本招标项目于</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">2022</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">年</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">9</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">月</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">5</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">日</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">9</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">点</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">30</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">分在</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">福清市公共服务中心交流中心</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">开标，已由评标委员会评审完毕，招标人按规定确定了中标人，现将中标结果公示如下：</span></span>
+                            </p>
+                            <p class="MsoNormal" style="margin-left: -14.0000pt; mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; mso-list: l0 level1 lfo2; color: #0000ff">
+                                <!-- [if !supportLists]--><span style=" mso-hansi- mso-bidi- mso-ansi-font-style: normal; font-size: 12.0000pt;"><span style="mso-list: Ignore;">1.&nbsp;</span></span>
+                                <!--[endif]--><span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">招标工程项目概况</span></span></p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">工程项目名称：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">中亭村乡村振兴村庄建设规划服务性编制项目</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">招标人：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">福清市阳下街道中亭村民委员会</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">建设规模：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">村域范围</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">招标方式:</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">公开招标</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="margin-left: -14.0000pt; mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; mso-list: l0 level1 lfo2; color: #0000ff">
+                                <!-- [if !supportLists]--><span style=" mso-hansi- mso-bidi- mso-ansi-font-style: normal; font-size: 12.0000pt;"><span style="mso-list: Ignore;">2.&nbsp;</span></span>
+                                <!--[endif]--><span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">评标委员会成员名单及评标办法</span></span></p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">招标人评委：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">专家评委：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">潘臻、朱守智、杨廷彪&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">评标办法：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">最低价中标法</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">评标参数：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">K = &nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;， C =&nbsp;/&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="margin-left: -14.0000pt; mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; mso-list: l0 level1 lfo2; color: #0000ff">
+                                <!-- [if !supportLists]--><span style=" mso-hansi- mso-bidi- mso-ansi-font-style: normal; font-size: 12.0000pt;"><span style="mso-list: Ignore;">3.&nbsp;</span></span>
+                                <!--[endif]--><span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">中标人及其投标文件相关内容</span></span></p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">中标人名称：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;福州城建设计研究院有限公司&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">项目负责人：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;赵俊淇、GH20163500527&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">中标金额：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;&nbsp;&nbsp;135000元&nbsp;&nbsp;&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="margin-left: -14.0000pt; mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; mso-list: l0 level1 lfo2; color: #0000ff">
+                                <!-- [if !supportLists]--><span style=" mso-hansi- mso-bidi- mso-ansi-font-style: normal; font-size: 12.0000pt;"><span style="mso-list: Ignore;">4.&nbsp;</span></span>
+                                <!--[endif]--><span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">公示时间</span></span></p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">公示期为</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">2022</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">年</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">9</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">月</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">5</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">日至</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">2022</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">年</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">9</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">月</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">9</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">日</span></span>
+                            </p>
+                            <p class="MsoNormal" style="margin-left: -14.0000pt; mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; mso-list: l0 level1 lfo2; color: #0000ff">
+                                <!-- [if !supportLists]--><span style=" mso-hansi- mso-bidi- mso-ansi-font-style: normal; font-size: 12.0000pt;"><span style="mso-list: Ignore;">5.&nbsp;</span></span>
+                                <!--[endif]--><span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">联系方式</span></span></p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">招标人：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;福清市阳下街道中亭村民委员会&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">办公地址：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;福清市阳下街道中亭村&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">邮政编码：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;350300&nbsp;&nbsp;</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">，联系电话：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;13599371269、13625060778&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">传真：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">，联系人：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;陈女士或林先生&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">招标代理机构：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;福建京汉工程项目管理有限公司&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">办公地址：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;福清市清昌大道通福花园1#205&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">邮政编码：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;350300&nbsp;&nbsp;</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">，联系电话：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;0591-86091117&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">传真：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">，联系人：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">&nbsp;&nbsp;小卢&nbsp;&nbsp;</span></span></u>
+                            </p>
+                            <p class="MsoNormal" style="mso-add-space: auto; text-indent: 24.0000pt; mso-char-indent-count: 2.0000; mso-pagination: widow-orphan; line-height: 125%; color: #0000ff">
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">日期：</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">2022</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">年</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">9</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">月</span></span>
+                                <u><span style="mso-spacerun: 'yes';  mso-bidi- color: #0000ff; text-decoration: underline; text-underline: single; font-size: 12.0000pt;"><span style="">5</span></span></u>
+                                <span style="mso-spacerun: 'yes';  mso-hansi- mso-bidi- font-size: 12.0000pt;"><span style="">日</span></span>
+                            </p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
